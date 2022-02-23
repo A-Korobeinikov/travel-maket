@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;500;700;900&display=swap');
-
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -10,7 +9,7 @@ body {
 }
 
 .header {
-    background: url('.././images/header-img.jpg') no-repeat center 50%/cover;
+    background: url('../images/header-img.jpg') no-repeat center 50%/cover;
 }
 
 .full-wrapper {}
