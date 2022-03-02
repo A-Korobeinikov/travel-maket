@@ -85,7 +85,7 @@ body {
     padding: 152px 0px 248px 0;
 }
 
-.title {
+.header-title {
     font-weight: bold;
     font-size: 72px;
     line-height: 88px;
@@ -105,24 +105,22 @@ body {
     color: #FFC700;
 }
 
-.sub-title {
+.header-sub-title {
     font-weight: 900;
     font-size: 96px;
     line-height: 117px;
     color: transparent;
     -webkit-text-stroke: 2px #FFFFFF;
 }
-
+.button-header {
+    padding-top: 70px;
+}
 .button {
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     border-radius: 60px;
-    height: 50px;
+    padding: 16px 52px;
     position: relative;
     color: #FFFFFF;
-}
-
-.button-header {
-    padding-top: 60px;
 }
 
 .more-link {
@@ -224,8 +222,7 @@ body {
 
 /*About*/
 .about {
-    background: url('./images/about-img.jpg') no-repeat;
-    
+    background: url('./images/about-img.jpg') no-repeat;    
     padding: 137px 0 137px 0px;
 }
 
@@ -250,6 +247,55 @@ body {
 }
 /*Конец About*/
 
+
+/*Типы туров*/
+.types-excursion {
+    padding-top: 150px;
+}
+.type-exursion-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.all-type {
+    display: grid;
+    width: 1120px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+.one-type-card {
+    display: flex;
+    justify-content: center;
+}
+.types-description {
+    padding-left: 20px;
+}
+.excursion-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+}
+.excursion-description {
+    padding-top: 10px;
+}
+.type-jeep {
+}
+.type-yacht {
+}
+.type-canyon {
+}
+.excursion-slogan {
+}
+.exursion-subtitle {
+}
+.button-excursion {
+}
+.more-link {
+}
+.button {
+}
+/*Конец типов туров*/
 
 
 
@@ -317,13 +363,7 @@ body {
 .send-btn {
     padding-top: 38px;
 }
-
-.form-button {
-    padding: 0 52px;
-}
-
-
-
+/*Конец form*/
 
 
 
@@ -406,13 +446,13 @@ body {
         padding: 235px 0 321px 0;
     }
 
-    .title {
+    .header-title {
         font-size: 48px;
         line-height: 59px;
         padding-bottom: 12px;
     }
 
-    .sub-title {
+    .header-sub-title {
         line-height: 86px;
         padding-bottom: 90px;
     }
@@ -438,7 +478,7 @@ body {
         padding: 116px 0 401px 0;
     }
 
-    .title {
+    .header-title {
         font-size: 36px;
         line-height: 44px;
     }
@@ -450,7 +490,7 @@ body {
         line-height: 50px;
     }
 
-    .sub-title {
+    .header-sub-title {
         font-size: 72px;
         line-height: 65px;
     }
