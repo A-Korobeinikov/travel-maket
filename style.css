@@ -189,6 +189,7 @@ body {
 /*ТУРЫ*/
 .tours {
     padding-top: 263px;
+    padding-bottom: 172px;
 }
 .description-tours {
     display: flex;
@@ -227,7 +228,7 @@ body {
     backdrop-filter: blur(20px);    
 }
 .form-description {
-    padding: 132px 105px;
+    padding: 132px 0;
 }
 .title-form {
     font-weight: bold;
@@ -241,10 +242,27 @@ body {
     color: #FFC700;
 }
  .input span{
-     display: block;
+    display: block;
     padding-bottom: 45px;
-
+    
 }
+.input input {  
+    width: 360px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;    
+}
+.input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.input input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #FFFFFF;
+ }
 .send-btn {
     padding-top: 38px;
 }
