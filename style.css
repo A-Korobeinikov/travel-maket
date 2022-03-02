@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;500;700;900&display=swap');
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -167,23 +168,27 @@ body {
 .social-link:last-child {
     padding-bottom: 0px;
 }
+
 .header-promo {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     transform: translateY(50%);
 }
-.header-video {
+
+.header-promo-img {
     padding-left: 20px;
 }
-.header-promo-video iframe{
+
+.header-promo-video iframe {
     border-radius: 12px;
     background-image: url('./images/header-video.jpg');
 }
-.header-promo-img img{
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.jpg); */
+
+.header-promo-img img {
     border-radius: 12px 0px 0px 12px;
 }
+
 /*конец header*/
 
 /*ТУРЫ*/
@@ -191,18 +196,21 @@ body {
     padding-top: 263px;
     padding-bottom: 172px;
 }
+
 .description-tours {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.title-tours {
+
+.title {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #0499DD;
 }
+
 .all-tours {
     font-weight: 500;
     font-size: 12px;
@@ -210,43 +218,80 @@ body {
     text-decoration-line: underline;
     color: #282828;
 }
+
 /*Конец ТУРЫ*/
 
+
+/*About*/
+.about {
+    background: url('./images/about-img.jpg') no-repeat;
+    
+    padding: 137px 0 137px 0px;
+}
+
+.adout-description {
+    margin-left: auto;
+    max-width: 542px;
+    background: #EDEDED;
+    border-radius: 10px;
+}
+.about-title {
+    padding: 61px 75px 40px 85px;
+}
+.about-text {
+    padding: 0px 75px 20px 85px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+.about-text:last-child {
+    padding-bottom: 105px;
+}
+/*Конец About*/
+
+
+
+
 /*Форма связи*/
-.form {
-}
+.form {}
+
 .send-form {
-    background: url('./images/form-img.jpg') no-repeat  center 50%/cover;
+    background: url('./images/form-img.jpg') no-repeat center 50%/cover;
 }
-.content-wrapper {
-}
+
 .wrap-form {
     max-width: 560px;
     margin-left: auto;
     display: flex;
-    justify-content: center;    
-    backdrop-filter: blur(20px);    
+    justify-content: center;
+    backdrop-filter: blur(20px);
 }
+
 .form-description {
     padding: 132px 0;
 }
+
 .title-form {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
 }
+
 .subtitle-form {
     padding-top: 6px;
     padding-bottom: 45px;
     color: #FFC700;
 }
- .input span{
+
+.input span {
     display: block;
     padding-bottom: 45px;
-    
+
 }
-.input input {  
+
+.input input {
     width: 360px;
     line-height: 40px;
     color: #FFFFFF;
@@ -254,19 +299,26 @@ body {
     line-height: 25px;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #FFFFFF;    
+    border-bottom: 1px solid #FFFFFF;
 }
-.input:active, :hover, :focus {
+
+.input:active,
+:hover,
+:focus {
     outline: 0;
     outline-offset: 0;
 }
-.input input::-webkit-input-placeholder { /* WebKit browsers */
+
+.input input::-webkit-input-placeholder {
+    /* WebKit browsers */
     color: #FFFFFF;
- }
+}
+
 .send-btn {
     padding-top: 38px;
 }
-.form-button {    
+
+.form-button {
     padding: 0 52px;
 }
 
@@ -280,50 +332,59 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding-top: 53px;
     padding-bottom: 29px;
 }
+
 .nav-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
+
 .nav-items-footer {
     padding-left: 110px;
     vertical-align: center;
 }
+
 .nav-item-footer {
     padding-bottom: 8px;
 }
+
 .link-item-footer {
     color: #282828;
 }
+
 .link-item-footer span {
     padding-left: 8px;
 }
+
 .contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
-.contact-items-footer {
-}
+
+.contact-items-footer {}
+
 .contact-item-footer {
     padding-bottom: 8px;
 }
+
 .social-footer {
     padding-left: 110px;
 }
+
 .mail {
     padding-bottom: 16px;
 }
-.social-links {
-}
-.social-link {
-}
+
+.social-links {}
+
+.social-link {}
 
 /*Responsive*/
 @media (min-width: 769px) {
