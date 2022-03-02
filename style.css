@@ -167,9 +167,49 @@ body {
 .social-link:last-child {
     padding-bottom: 0px;
 }
+.header-promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    transform: translateY(50%);
+}
+.header-video {
+    padding-left: 20px;
+}
+.header-promo-video iframe{
+    border-radius: 12px;
+    background-image: url('./images/header-video.jpg');
+}
+.header-promo-img img{
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.jpg); */
+    border-radius: 12px 0px 0px 12px;
+}
+/*конец header*/
 
-
-
+/*ТУРЫ*/
+.tours {
+    padding-top: 263px;
+}
+.description-tours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-tours {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+.all-tours {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #282828;
+}
+/*Конец ТУРЫ*/
 
 /*Форма связи*/
 .form {
@@ -202,11 +242,11 @@ body {
 }
  .input span{
      display: block;
-    padding: 150px;
+    padding-bottom: 45px;
 
 }
 .send-btn {
-    padding-top: 83px;
+    padding-top: 38px;
 }
 .form-button {    
     padding: 0 52px;
