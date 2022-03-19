@@ -192,7 +192,7 @@ body {
 /*ТУРЫ*/
 .tours {
     padding-top: 263px;
-    padding-bottom: 172px;
+    padding-bottom: 90px;
 }
 
 .description-tours {
@@ -254,14 +254,19 @@ body {
 }
 .type-exursion-card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: 90px;
 }
-.all-type {
-    display: grid;
-    width: 1120px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 15px;
+
+.road-tours {
+    display: flex;
+    flex-direction: row;
+}
+.water-tours {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
 }
 .one-type-card {
     display: flex;
@@ -279,17 +284,19 @@ body {
 .excursion-description {
     padding-top: 10px;
 }
-.type-jeep {
-}
-.type-yacht {
-}
-.type-canyon {
-}
+
 .excursion-slogan {
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
 }
 .exursion-subtitle {
+    
+line-height: 17px;
 }
 .button-excursion {
+    padding-top: 40px; /*исправить отступ*/
 }
 .more-link {
 }
@@ -298,9 +305,16 @@ body {
 /*Конец типов туров*/
 
 
+/*Форма галерея фотографий*/
+  
+/*Конец формы галерея фотографий*/
+
+
 
 /*Форма связи*/
-.form {}
+.form {
+    padding-top: 150px;
+}
 
 .send-form {
     background: url('./images/form-img.jpg') no-repeat center 50%/cover;
