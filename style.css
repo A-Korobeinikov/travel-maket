@@ -112,9 +112,11 @@ body {
     color: transparent;
     -webkit-text-stroke: 2px #FFFFFF;
 }
+
 .button-header {
     padding-top: 70px;
 }
+
 .button {
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     border-radius: 60px;
@@ -222,7 +224,7 @@ body {
 
 /*About*/
 .about {
-    background: url('./images/about-img.jpg') no-repeat;    
+    background: url('./images/about-img.jpg') no-repeat;
     padding: 137px 0 137px 0px;
 }
 
@@ -232,9 +234,11 @@ body {
     background: #EDEDED;
     border-radius: 10px;
 }
+
 .about-title {
     padding: 61px 75px 40px 85px;
 }
+
 .about-text {
     padding: 0px 75px 20px 85px;
     font-weight: 500;
@@ -242,9 +246,11 @@ body {
     line-height: 17px;
     color: #282828;
 }
+
 .about-text:last-child {
     padding-bottom: 105px;
 }
+
 /*Конец About*/
 
 
@@ -252,6 +258,7 @@ body {
 .types-excursion {
     padding-top: 150px;
 }
+
 .type-exursion-card {
     display: flex;
     flex-direction: column;
@@ -262,27 +269,36 @@ body {
 .road-tours {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
 .water-tours {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-top: 40px;
 }
+
 .one-type-card {
     display: flex;
     justify-content: center;
 }
+
 .types-description {
     padding-left: 20px;
 }
+
 .excursion-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #0499DD;
 }
+
 .excursion-description {
     padding-top: 10px;
+    max-width: 455px;
+    line-height: 17px;
 }
 
 .excursion-slogan {
@@ -291,22 +307,81 @@ body {
     max-width: 550px;
     text-align: center;
 }
+
 .exursion-subtitle {
-    
-line-height: 17px;
+    line-height: 17px;
 }
+
 .button-excursion {
-    padding-top: 40px; /*исправить отступ*/
+    padding-top: 40px;
+    /*исправить отступ*/
 }
-.more-link {
-}
-.button {
-}
+
+.more-link {}
+
+.button {}
+
 /*Конец типов туров*/
 
 
 /*Форма галерея фотографий*/
-  
+.description-tours {
+    padding-top: 167px;
+}
+
+.gallery-photo {
+    height: 567px;
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) 3fr repeat(2, 2fr);
+    grid-template-rows: 1fr repeat(2, 0.5fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.photos {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(.jpg);
+    border-radius: 5px;
+}
+.photo1 {
+    grid-area: 1 / 1 / 2 / 3;
+    background: url('./images/galerry/photo1.jpg') no-repeat 50%/cover;
+}
+
+.photo2 {
+    grid-area: 2 / 1 / 4 / 2;
+    background: url('./images/galerry/photo2.jpg') no-repeat 50%/cover;
+}
+
+.photo3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background: url('./images/galerry/photo3.jpg') no-repeat 50%/cover;
+}
+
+.photo4 {
+    grid-area: 3 / 2 / 4 / 3;
+    background: url('./images/galerry/photo4.jpg') no-repeat 50%/cover;
+}
+
+.photo5 {
+    grid-area: 1 / 3 / 4 / 4;
+    background: url('./images/galerry/photo5.jpg') no-repeat 50%/cover;
+}
+
+.photo6 {
+    grid-area: 1 / 4 / 2 / 5;
+    background: url('./images/galerry/photo6.jpg') no-repeat 50%/cover;
+}
+
+.photo7 {
+    grid-area: 1 / 5 / 2 / 6;
+    background: url('./images/galerry/photo7.jpg') no-repeat 50%/cover;
+}
+
+.photo8 {
+    grid-area: 2 / 4 / 4 / 6;
+    background: url('./images/galerry/photo8.jpg') no-repeat 50%/cover;
+}
+
 /*Конец формы галерея фотографий*/
 
 
@@ -377,6 +452,7 @@ line-height: 17px;
 .send-btn {
     padding-top: 38px;
 }
+
 /*Конец form*/
 
 
